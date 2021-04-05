@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_preference_1"
+        android:title="Убрать рекламу" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="check_box_preference_1"
+        android:title="Ускорить работу" />
+    <EditTextPreference
+        android:defaultValue="false"
+        android:inputType="number"
+        android:key="shag"
+        android:summary="Введите шаг для сервиса"
+        android:title="Шаг" />
+</PreferenceScreen>
